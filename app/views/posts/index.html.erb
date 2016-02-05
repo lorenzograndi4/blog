@@ -1,11 +1,8 @@
-
-<h1>Welcome to my blog, bitch!</h1>
-
-<p>
-  <%= link_to "New Post", new_post_path %>
-</p>
-
-<% @posts.each do |post| %>
+<div class='header'>
+  <h1>Welcome to my blog, bitch!</h1>
+</div>
+<div class='recent'>
+  <% @posts.each do |post| %>
 
 	<article class="post">
 
@@ -15,4 +12,9 @@
     
     </article>
 
-<% end %>
+  <% end %>
+</div>
+<hr>
+<p class='navigation'>
+    <%= link_to "New Post", new_post_path %>
+</p>

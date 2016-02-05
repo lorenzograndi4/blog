@@ -1,9 +1,26 @@
 body {
-	margin: 15px;
+	margin: 20px;
+	padding: 20px;	
 }
 
 h1 {
+	font-size: 60px;
+	color: white;
+    text-align: center;
+}
 
+.header {
+    background-color: #236267;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.recent {
+	display: block;
+	width: 100%;
 }
 
 .post {
@@ -11,4 +28,22 @@ h1 {
 	margin: 10px;
 	padding: 5px;
 	border: 1px #e5e5e5 solid;
+	min-width: 350px;
+
+}
+
+.navigation {
+	position:fixed;
+    left:20px;
+    bottom:5px;
+}
+
+a {
+    text-decoration: underline;
+    color: #236267;	
+}
+
+/* mouse over link */
+a:hover {
+    color: #417c81;
 }

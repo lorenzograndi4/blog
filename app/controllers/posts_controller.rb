@@ -49,7 +49,6 @@ class PostsController < ApplicationController
   	else
   		redirect_to @post
   	end
-
   end
 
   private
